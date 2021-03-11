@@ -13,8 +13,8 @@ function App() {
         <Nav />
       </nav>
       <main>
-      <Route path="/:advice" component={Advice} />
-      <Buttons />
+        <Route path="/advice" component={Advice} />
+     
 
       </main>
       
