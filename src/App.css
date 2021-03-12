@@ -11,6 +11,8 @@ nav {
  
   display: grid;
   grid-row: 1 / span 3;
+ 
+
 
   place-items: center;
   justify-content: space-between;
@@ -28,7 +30,7 @@ h1 p {
  
 }
 
-.request-advice{
+button {
     position: absolute;
     right: 20%;
     margin: 40px auto;

@@ -1,9 +1,12 @@
 import React from 'react';
 
-const Buttons = () => {
+const Buttons = ({fetchAdvice}) => {
+ 
+
     return (
         <div>
-            <button className="request-advice">More</button>
+            <button onClick={fetchAdvice}>WANT MORE?</button>
+          
         </div>
     );
 };
