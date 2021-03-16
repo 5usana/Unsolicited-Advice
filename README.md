@@ -19,7 +19,7 @@ an API rendering Data app providing the world with much needed Unsolicited Advic
 functioning code
 mobile & computer friendly
 ## Wire Frames
-<img src="./wireframe.png" alt="">
+<img src="./public/wireframe.png" alt="">
 
 <!-- ## Stretch Goals- not met
 a favorites tab for when you stumble on actual good advice
