@@ -1,60 +1,64 @@
-body{
+.grid-container{
   display: grid;
-  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr;
+  grid-template-rows: 140px 1fr 1fr;
+  height: 290px;
+  /* width: 95vw; */
+}
+.navigation{
+  font-family: 'Amatic SC', cursive;
+  font-size: large;
+  display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+}
+
+a{
+  color: white;
+  display: inline;
+}
+
+main{
+  padding: 5px 10px 5px 10px;
+  color: black;
+  font-family: 'Amatic SC', cursive;
+  font-size: 55px;
+  text-align: center;
+  width: 95vw;
+}
+
+.greeting{
+  align-items: center;
 }
 
 nav {
   background-color: rgb(197, 132, 11);
   color: white;
   font-size: larger;
- 
-  display: grid;
-  grid-row: 1 / span 3;
- 
-
-
-  place-items: center;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0 20px;
-}
-
-div h1 {
-  place-items: center;
-  
-}
-
-h1 p {
-  place-items: right;
- 
-}
-
-button {
-    position: absolute;
-    right: 20%;
-    margin: 40px auto;
-    font-size: large;
-    width: 100px;
-    padding: 10px;
-    color: white;
-    background: rgb(116, 68, 6);
-    border-radius: 2px;
+  padding-left: 20px;
+  display: block;
 }
 
 .advice-container {
   background-color: rgb(31, 25, 25);
   opacity: 90%;
-  display: grid;
   border-radius: 15px;
-  position: relative;
-  margin: 20px auto;
-  height: 200px;
-  width: 580px;
-  padding: 20px;
   color: rgb(20, 19, 19);
-  margin-top: 0em;
-  font-size: 30px;
+  font-size: 25px;
   color: rgb(253, 253, 253);
   text-align: center;
+  font-size: 40px;
+  width: 80vw;
+  margin: auto;
+}
+
+button {
+    font-family: 'Amatic SC', cursive;
+    right: 20%;
+    margin: 10px auto;
+    font-size: 40px;
+    width: 120px;
+    padding: 2px;
+    color: white;
+    background: rgb(82, 48, 5);
+    border-radius: 12px;
 }

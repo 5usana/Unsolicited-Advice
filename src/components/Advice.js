@@ -1,7 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import Buttons from './Buttons';
-
-
+import Button from './Button';
 
 const Advice = () => {
     const [generateAdvice, setGenerateAdvice] = useState({slip:{advice:""}});
@@ -25,7 +23,7 @@ const Advice = () => {
             <div className="random-advice">
             {generateAdvice.slip.advice}
             </div>
-            <Buttons fetchAdvice={fetchAdvice}/>
+            <Button fetchAdvice={fetchAdvice}/>
         </div>
     );
 };
